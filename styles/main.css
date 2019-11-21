@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(245, 246, 247);
+    font-family: sans-serif;
+    font-size: medium;
+}
+#ruapehu-image {
+    width: 1400px;
+    padding: 50px 50px 50px 50px;
+    display: block;
+    border-style: hidden;
+    border-radius: 50%;
+}
+.main-content {
+    padding: 0px 550px
+}
+#header1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+}
