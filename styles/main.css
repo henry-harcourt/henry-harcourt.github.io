@@ -11,9 +11,17 @@ body {
     border-radius: 50%;
 }
 .main-content {
-    padding: 0px 550px
+    padding: 0px 550px;
 }
 #header1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 50px;
+}
+#sprint2-header {
+    padding: 20px 50px 50px 20px;
+    margin-left: 200px;
+}
+#positioning-img {
+    width: 700px;
+    padding: 10px 10px 10px 10px;
 }
