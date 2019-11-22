@@ -1,8 +1,14 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
 .HenryH {
     position: fixed;
     font-size: xx-large;
     color: brown;
-    border-style: solid 4px brown;
+    display: block solid 4px brown;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial
 }
 body {
@@ -14,20 +20,27 @@ body {
     width: 1400px;
     padding: 50px 50px 50px 50px;
     display: block;
-    border-style: hidden;
     border-radius: 50%;
 }
+#positioning-img {
+    height: 40%;
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 .main-content {
-    padding: 0px 550px;
+    border-left-width: auto;
+    border-right-width: auto;
+    text-align: center;
 }
 .Sprint1-tech {
     max-width: 10%;
-    outline: 1px black !important;
+    display: block;
 }
 .Sprint1-core {
     max-width: 10%;
     outline: black;
-    display: flex;
 }
 .Sprint2-tech {
     max-width: 10%;
@@ -42,6 +55,7 @@ body {
     font-size: 50px;
 }
 #sprint2-header {
-    padding: 20px 50px 50px 20px;
-    margin-left: 200px;
+    border-left-width: auto;
+    border-right-width: auto;
+    text-align: center;
 }
