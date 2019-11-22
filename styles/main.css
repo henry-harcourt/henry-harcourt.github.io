@@ -34,21 +34,23 @@ body {
     border-right-width: auto;
     text-align: center;
 }
-.Sprint1-tech {
+#Sprint1-tech {
+    display: block;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+}
+#Sprint1-core {
     max-width: 10%;
     display: block;
 }
-.Sprint1-core {
-    max-width: 10%;
-    outline: black;
-}
 .Sprint2-tech {
     max-width: 10%;
-    outline: black;
+    display: block;
 }
 .Sprint2-core {
     max-width: 10%;
-    outline: 1px solid black;
+    display: block;
 }
 #header1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
