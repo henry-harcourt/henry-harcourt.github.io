@@ -22,6 +22,7 @@ body {
     margin-left: 200px;
 }
 #positioning-img {
-    width: 700px;
-    padding: 10px 10px 10px 10px;
+    width: 40%;
+    position: static;
+    left: 40%
 }
