@@ -1,3 +1,10 @@
+.HenryH {
+    position: fixed;
+    font-size: xx-large;
+    color: brown;
+    border-style: solid 4px brown;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial
+}
 body {
     background-color: rgb(245, 246, 247);
     font-family: sans-serif;
@@ -13,6 +20,23 @@ body {
 .main-content {
     padding: 0px 550px;
 }
+.Sprint1-tech {
+    max-width: 10%;
+    outline: 1px black !important;
+}
+.Sprint1-core {
+    max-width: 10%;
+    outline: black;
+    display: flex;
+}
+.Sprint2-tech {
+    max-width: 10%;
+    outline: black;
+}
+.Sprint2-core {
+    max-width: 10%;
+    outline: 1px solid black;
+}
 #header1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 50px;
@@ -20,9 +44,4 @@ body {
 #sprint2-header {
     padding: 20px 50px 50px 20px;
     margin-left: 200px;
-}
-#positioning-img {
-    width: 40%;
-    position: static;
-    left: 40%
 }
