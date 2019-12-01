@@ -40,6 +40,7 @@ body {
     font-size: 20pt;
     padding: 25px;
     outline: solid black;
+    margin: 2%;
 }
 #header1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
