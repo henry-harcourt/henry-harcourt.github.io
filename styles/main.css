@@ -15,7 +15,7 @@ body {
     background-color: rgb(245, 246, 247);
     font-family: sans-serif;
     font-size: medium;
-    border: solid 100px rgb(245, 246, 247);
+    
 }
 #ruapehu-image {
     width: 100%;
@@ -30,9 +30,11 @@ body {
     margin-right: auto;
 }
 .main-content {
-    border-left-width: auto;
-    border-right-width: auto;
+    margin-left: 200px;
+    margin-right: 200px;
     text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 .index-links {
     display: inline-block;
@@ -57,4 +59,8 @@ body {
     text-align: center;
     border-style: solid 2px black;
     display: block;
+}
+.example-code {
+    max-width: 40%;
+    height: auto;
 }
