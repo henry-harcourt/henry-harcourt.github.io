@@ -30,11 +30,12 @@ body {
     margin-right: auto;
 }
 .main-content {
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 250px;
+    margin-right: 250px;
     text-align: center;
     padding-bottom: 20px;
     padding-top: 20px;
+    font-size: large;
 }
 .index-links {
     display: inline-block;
@@ -63,4 +64,8 @@ body {
 .example-code {
     max-width: 40%;
     height: auto;
+}
+.list {
+    display: inline-block;
+    text-align: left;
 }
